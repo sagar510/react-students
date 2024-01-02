@@ -1,7 +1,7 @@
 import './App.css';
 import { useState,useEffect } from 'react';
 
-function AllStudents() {
+function AllTeachers() {
 
     const [stu_data,set_stu_data] = useState([]);
 
@@ -48,4 +48,4 @@ function AllStudents() {
 
 }
 
-export default AllStudents;
+export default AllTeachers;

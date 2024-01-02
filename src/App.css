@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.eachlink{
+  text-decoration: none;
+  font-size: x-large;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +40,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.diff_nav{
+  display: flex;
+  gap:20px;
 }
